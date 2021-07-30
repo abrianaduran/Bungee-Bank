@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import PropTypes from 'prop-types'
+import React from 'react'
+
 import { Link } from 'react-router-dom'
 
 // { setToken }
@@ -37,6 +37,7 @@ handleSubmit = e => {
         password: password,
         username: username
     }
+    console.log(data)
     this.props.history.push(`/dashboard`)
 }
 render() {

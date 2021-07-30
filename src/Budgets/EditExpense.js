@@ -41,6 +41,7 @@ const expense = {
     amount: expenseAmount,
     category: expenseCategory,
 }
+console.log(expense)
 
 }
     render() {

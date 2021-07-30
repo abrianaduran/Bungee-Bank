@@ -1,4 +1,4 @@
-export default {
+const STORE = {
     "budgets": [
       {
         "id": "b0715efe-ffaf-11e8-8eb2-f2801f1b9fd1",
@@ -134,3 +134,5 @@ export default {
       }
     ]
   }
+
+  export default STORE
